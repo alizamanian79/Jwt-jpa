@@ -31,3 +31,5 @@ create config package and add this java class:
 - Add AuthenticationResponse (To send token)
 - Add RegisterRequest (DTO for register by (It should be change refer to how want signUp or register properties) ) ***
 - Add AuthenticationRequest (DTO for register by (It should be change refer to how want login property) ***
+- Add AuthenticationService (Need changes ******)
+- After All this , go to Authcontroller and copy Api and put in White list api can access in SecurityConfiguration in config package **
