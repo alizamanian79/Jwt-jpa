@@ -9,11 +9,11 @@ Step 1 :Install Dependencies:
 Step 2 Set Up your Application.properties to connect Your Database:
 - Add Application.properties in your ptoject and change Database,username and password.
 
-Step 3 : Create User model in model Package 
+Step 3 : Create User model in model Package **
 - Add User model class and impliment UserDetails interface in Spring Security
 
 
-Step 4 : Add UserRepository Interface in repository Package
+Step 4 : Add UserRepository Interface in repository Package **
 - Create package call repository and defined what username should be (define findBy(properties in model you defined as getUsername))
 - defiend Query for username (We set for email)
 
