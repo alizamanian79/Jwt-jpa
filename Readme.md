@@ -26,3 +26,8 @@ create config package and add this java class:
 - Add SecurityConfiguration 
 
 
+** Step 6 : Create auth package and added this
+- Add AuthenticationController (To manage api if have specific api) ***
+- Add AuthenticationResponse (To send token)
+- Add RegisterRequest (DTO for register by (It should be change refer to how want signUp or register properties) ) ***
+- Add AuthenticationRequest (DTO for register by (It should be change refer to how want login property) ***
