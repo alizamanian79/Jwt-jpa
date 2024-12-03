@@ -23,6 +23,6 @@ create config package and add this java class:
 - Add jjwt dependencies (jjwt api , jjwt imp , jjwt jackson) and reload maven
 - Add JwtService
 - Add ApplicationConfig and if have another repo change it **
-
+- Add SecurityConfiguration 
 
 
