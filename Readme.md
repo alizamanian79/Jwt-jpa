@@ -33,3 +33,6 @@ create config package and add this java class:
 - Add AuthenticationRequest (DTO for register by (It should be change refer to how want login property) ***
 - Add AuthenticationService (Need changes ******)
 - After All this , go to Authcontroller and copy Api and put in White list api can access in SecurityConfiguration in config package **
+
+
+Step 7 : Create demo package and a controller to check endpoint lock or not
